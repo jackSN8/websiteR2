@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+@font-face
+{
+  font-family: PopLight;
+  src: url('./fonts/Poppins-Light.tff')
+}
+@font-face
+{
+  font-family: PopReg;
+  src: url('./fonts/Poppins-Regular.tff')
+}
+@font-face
+{
+  font-family: PopBold;
+  src: url('./fonts/Poppins-Bold.tff')
+}
+
+body
+{
+  font-family: PopReg;
+  background-color: black;
+}
+
+.portfolio
+{
+  color: white;
+  background: #2C343B;
+}
+
+nav
+{
+  min-height: 10vh;
+  width:90%;
+  margin:auto;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo
+{
+  color: green;
+  font-size: 2px;
+}

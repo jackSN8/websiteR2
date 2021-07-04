@@ -1,0 +1,137 @@
+
+
+@font-face
+{
+  font-family: PopLight;
+  src: url('./hlData/fonts/Poppins-Light.ttf')
+}
+@font-face
+{
+  font-family: PopReg;
+  src: url('./hlData/fonts/Poppins-Regular.ttf')
+}
+@font-face
+{
+  font-family: PopBold;
+  src: url('./hlData/fonts/Poppins-Bold.ttf')
+}
+html
+{
+  background: #1E1F20;
+}
+
+body
+{
+  margin-left: 150px;
+  margin-right:150px;
+  position: relative;
+  width: 944.7px;
+  height: 956px;
+  font-family: PopLight ;
+  background: #2F404F;
+
+}
+
+.middle-wrapper
+{
+  display:flex;
+  justify-content: space-between;
+}
+.orion-image-background
+{
+  position: absolute;
+  width: 945.98px;
+  height: auto;
+  left: 0px;
+  top: -30.77px;
+  background: url(M42 (3).jpg);
+  overflow: hidden;
+}
+
+.jack
+{
+    /* IMG_4791 1 */
+  position: absolute;
+  width: 218px;
+  height: 309px;
+  left: 72px;
+  top: 174px;
+
+  background: url(IMG_4791.jpg);
+  }
+
+.bio
+{
+  position: absolute;
+  width: 270.56px;
+  height: 118.64px;
+  left: 537.32px;
+  top: 274.94px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17.2988px;
+  line-height: 17px;
+
+  color: #FFFFFF;
+}
+
+.title
+{
+  /* Jack Kingdon */
+  position: absolute;
+  width: 274.31px;
+  height: 150.65px;
+  left: 537.32px;
+  top: 199.61px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30.13px;
+  line-height: 45px;
+
+  color: #FFFFFF;
+}
+
+.menu
+{
+  position: absolute;
+  width: 129.31px;
+  height: 55.87px;
+  left: 115.36px;
+  top: 510.74px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40.195px;
+  line-height: 68px;
+  color: #FFFFFF;
+}
+
+.menu-link-wrapper
+{
+  position: relative;
+  height: 40.95px;
+  left: 5.5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.2988px;
+  line-height: 17px;
+
+  /* identical to box height */
+
+  color: #FFFFFF;
+}
+
+.p5-canvas
+{
+  position: absolute;
+  height: 100px;
+  width:500px;
+  top:100px;
+  z-index: 1;
+}
+
+a:visited
+{
+  color: green;
+}

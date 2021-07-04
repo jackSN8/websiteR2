@@ -1,0 +1,115 @@
+@font-face
+{
+  font-family: PopLight;
+  src: url('./fonts/Poppins-Light.ttf')
+}
+@font-face
+{
+  font-family: PopReg;
+  src: url('./fonts/Poppins-Regular.ttf')
+}
+@font-face
+{
+  font-family: PopBold;
+  src: url('./fonts/Poppins-Bold.ttf')
+}
+html
+{
+  background: #1E1F20;
+  max-width: 500px;
+}
+body
+{
+  margin-left: 200px;
+  margin-right:150px;
+  position: relative;
+  width: 800.7px;
+  height: 956px;
+  font-family: PopLight ;
+  background: #2F404F;
+}
+
+.title
+{
+  position: absolute;
+  width: 495px;
+  height: 72px;
+  left: 152px;
+  top: 77px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #FF4B4B;
+}
+
+.top-info
+{
+
+  position: absolute;
+  width: 518px;
+  height: 168px;
+  left: 22px;
+  top: 200px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+.middle-info
+{
+  position: absolute;
+  width: 460px;
+  height: 142px;
+  left: 22px;
+  top: 307px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.bottom-info
+{
+  position: absolute;
+  width: 592px;
+  height: 185px;
+  left: 22px;
+  top: 430px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+.ml-image-wrapper
+{
+  position: absolute;
+  width: 252px;
+  height: 145px;
+  left: 540px;
+  top: 230px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 6px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+.ml-image
+{
+  position:relative;
+  left:10px;
+  width: 222px;
+  height: auto;
+}

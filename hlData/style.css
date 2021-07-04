@@ -1,0 +1,109 @@
+@font-face
+{
+  font-family: PopLight;
+  src: url('./fonts/Poppins-Light.ttf')
+}
+@font-face
+{
+  font-family: PopReg;
+  src: url('./fonts/Poppins-Regular.ttf')
+}
+@font-face
+{
+  font-family: PopBold;
+  src: url('./fonts/Poppins-Bold.ttf')
+}
+html
+{
+  background: #1E1F20;
+  max-width: 500px;
+}
+body
+{
+  margin-left: 200px;
+  margin-right:150px;
+  position: relative;
+  width: 800.7px;
+  height: 956px;
+  font-family: PopLight ;
+  background: #2F404F;
+}
+
+.transmitter-tower
+{
+  position: absolute;
+  width: 177px;
+  height: 133px;
+  left: 0px;
+  top: 2px;
+}
+
+.large-dish
+{
+  position: absolute;
+  width: 132px;
+  height: 133px;
+  left: 177px;
+  top: 2px;
+}
+
+.spectrum
+{
+  position: absolute;
+width: 491px;
+height: 135px;
+left: 309px;
+top: 0px;
+}
+
+.title
+{
+  color:#0ECAA8;
+  position: absolute;
+  width: 447px;
+  height: 122px;
+  margin-left: 170px;
+  margin-right:200px;
+  top: 162px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.info
+{
+  position: absolute;
+  width: 700.08px;
+  height: 199.03px;
+  margin-left: 50px;
+  margin-right:200px;
+  top: 220px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 27px;
+ text-align: justify;
+  color: #FFFFFF;
+}
+.telescope-photo
+{
+  position: absolute;
+  width: 240px;
+  height: 360px;
+  left: 91px;
+  top: 476px;
+}
+.telescopeCaption
+{
+  position: absolute;
+  width: 540.08px;
+  height: 199.03px;
+  left: 71.1px;
+  top: 840px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+ text-align: justify;
+  color: #FFFFFF;
+}
