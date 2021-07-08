@@ -10,7 +10,7 @@ let foods = [];
 function setup()
 {
   let canvas = createCanvas(500,300);
-  canvas.position(400,500);
+  canvas.position(160,300);
   angleMode(RADIANS);
   targ1 = createVector(200,200);
   for(let i=0; i<totalAgents; i++)
