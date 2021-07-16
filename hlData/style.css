@@ -88,21 +88,71 @@ top: 0px;
 .telescope-photo
 {
   position: absolute;
-  width: 240px;
-  height: 360px;
+  width: 160px;
   left: 91px;
-  top: 476px;
+  top: 606px;
 }
 .telescopeCaption
 {
   position: absolute;
   width: 540.08px;
   height: 199.03px;
-  left: 71.1px;
+  left: 91.1px;
   top: 840px;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 9px;
+  line-height: 27px;
+ text-align: justify;
+  color: #FFFFFF;
+}
+
+.graph-photo
+{
+  position: absolute;
+  width: 460px;
+  left: 301px;
+  top: 566px;
+}
+
+.graphCaption
+{
+  position: absolute;
+  width: 540.08px;
+  height: 199.03px;
+  left: 361.1px;
+  top: 840px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 27px;
+ text-align: justify;
+  color: #FFFFFF;
+}
+.graphCaption2
+{
+  position: absolute;
+  width: 540.08px;
+  height: 199.03px;
+  left: 361.1px;
+  top: 855px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 27px;
+ text-align: justify;
+  color: #FFFFFF;
+}
+.graphCaption3
+{
+  position: absolute;
+  width: 540.08px;
+  height: 199.03px;
+  left: 361.1px;
+  top: 870px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
   line-height: 27px;
  text-align: justify;
   color: #FFFFFF;

@@ -17,7 +17,7 @@ function setup()
 }
 function draw()
 {
-  background(27);
+  background(0,20,80);
   translate(0,height/2);
   strokeWeight(4);
   stroke(255);
